@@ -64,8 +64,8 @@ nav a:hover{background:var(--ink-soft);color:var(--green)}
 .hero-card{background:var(--green);padding:14px;aspect-ratio:1/0.92}
 .hero-card .in{height:100%;background:var(--ink);display:grid;place-items:center;text-align:center;padding:24px;
   clip-path:polygon(18px 0,calc(100% - 18px) 0,100% 18px,100% calc(100% - 18px),calc(100% - 18px) 100%,18px 100%,0 calc(100% - 18px),0 18px)}
-.hero-card .in b{font-family:'Aref Ruqaa',serif;font-size:clamp(54px,8vw,92px);color:var(--green);line-height:1.1;display:block}
-.hero-card .in span{color:#fff;font-weight:700;letter-spacing:.5px}
+.hero-card .in.image-slot img{object-fit:contain;padding:20px;background:transparent}
+.hero-card .in .image-placeholder{color:var(--green)}
 
 /* شريط الأرقام */
 .stats{margin-top:-52px;position:relative;z-index:5}
